@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {  
+    background-color: #000000;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            
+     }
+
+.background {
+    background-image: url(placa1.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    color: #ffffff;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+ .cabeçalho-link a {
+     color: rgb(255, 255, 255);
+     font-size: 2em;
+     align-items: center;
+
+ }
+
+ .cabeçalho-link :hover {
+
+    transform: scale(1.1);
+    transition: 1.2s;
+ }
+
+button {
+    width: 5px;
+    height: 5px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    background-size: 10%;
+    border-radius: 100%;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+main {
+    background-color: #000000;
+    color: #ffffff;
+    height: 100%;
+    text-align: center;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #101010;
+    color: #000000;
+    height: 350px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+h4 {
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2;
+}
+
+h5 {
+   width: 90%;
+   margin-left: 5%;
+} 
+
+
+.imagem-produto {
+    width: 40%;
+    height: 50%;
+    border-radius: 50%;
+    border: #ffffff;
+    margin-top: 40px
+  }
+  
+  .produto {
+    padding-top: 100px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor:pointer;
+    color: #ffffff;
+  }
+  
+  .produto-item:hover {
+    transform: scale(1.1);
+    transition: 1.2s;
+    
+  }
+  
+ h1 {
+    color: #ffffff;
+
+}
+
+h6 {
+    color: #ffffff;
+}
+
+h6 a {
+    color: #ffffff;
+}
+
